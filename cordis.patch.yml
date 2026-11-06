@@ -1,0 +1,13 @@
+# dsh-plugin-context-compressor bundle layer: insert the plugin row when this bundle is active.
+#
+# The row registers the two model-facing tools (`context_status`, `context_compress`).
+# Every value below is a default the user's own patch layer can override; see
+# README.md for what each one does.
+- insert:
+    - id: context-compressor
+      name: dsh-plugin-context-compressor
+      config:
+        enabled: true
+        keepRecentTokens: 20000
+        minCompactTokens: 2000
+        maxNodesListed: 60

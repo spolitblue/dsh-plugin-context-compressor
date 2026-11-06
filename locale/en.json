@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Context Compressor",
+    "description": "Gives the model two tools: inspect context pressure, and condense older history into one summary on demand."
+  }
+}
